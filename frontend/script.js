@@ -215,10 +215,14 @@
     try {
       const hours = Number($("hoursSelect").value);
       const history = Number($("historySelect").value);
-      const confidence = Number($("confidenceSelect").value);
+      const confidence = Number($("confidenceSelect").value) / 100;
+
       const query = new URLSearchParams({
-        horas: String(hours), historia: String(history), confianza: String(confidence)
+        horas: String(hours),
+        historia: String(history),
+        confianza: String(confidence)
       });
+
       const [payload, health, model] = await Promise.all([
         getJSON(`/api/prediccion?${query.toString()}`),
         getJSON("/api/salud"),
