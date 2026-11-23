@@ -1,11 +1,12 @@
-
 .env
 .git
 .gitignore
+.devcontainer/
+notebooks/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-.ipynb
+*.ipynb
 venv/
 .venv/
 .pytest_cache/

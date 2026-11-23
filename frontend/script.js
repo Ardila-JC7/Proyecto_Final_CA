@@ -215,7 +215,7 @@
     try {
       const hours = Number($("hoursSelect").value);
       const history = Number($("historySelect").value);
-      const confidence = Number($("confidenceSelect").value) / 100;
+      const confidence = Number($("confidenceSelect").value);
 
       const query = new URLSearchParams({
         horas: String(hours),
