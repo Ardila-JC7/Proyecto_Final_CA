@@ -1,3 +1,11 @@
+# 🎥 Video de demostración
+
+En el siguiente video se presenta el funcionamiento del proyecto
+de pronóstico de series de tiempo, tanto en ejecución directa
+como mediante Docker.
+
+**Enlace:** [Ver video de demostración](https://youtu.be/hciU1Ypsh8k)
+
 # Proyecto final · Pronóstico de series de tiempo en producción
 
 **Computación Avanzada — Cierre del curso**
